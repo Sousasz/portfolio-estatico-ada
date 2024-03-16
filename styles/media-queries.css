@@ -1,0 +1,149 @@
+@media screen and (max-width: 1285px) {
+  #cards-bg {
+    height: 45rem;
+  }
+
+  #cards-bg #cards-area #cards-area__content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #cards-area__content .element__square {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #header-navigation .navbar__desktop {
+    display: none;
+  }
+
+  #header-navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 0px;
+  }
+
+  #header-navigation .menu-mobile {
+    display: block;
+  }
+
+  #header-navigation .menu-mobile summary {
+    all: unset;
+    font-size: 50px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+  }
+
+  .menu-mobile .menu__mobile__links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #ff6464;
+    height: 160px;
+    list-style: none;
+
+    gap: 15px;
+  }
+
+  .menu-mobile .menu__mobile__links a {
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main-content {
+    background-color: transparent;
+    margin: 5rem 0rem;
+    height: 120vh;
+  }
+
+  .main-content .greeting__person {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .main-content .greeting__person .about {
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-content .greeting__person .about p {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  #cards-bg {
+    width: 100%;
+    height: 65%;
+    padding: 0px 0px;
+  }
+
+  #cards-area__content .element__square {
+    height: 100%;
+  }
+
+  #cards-bg #cards-area {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .main-content .greeting__person .about h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .element__square .card__header h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .main-content .greeting__person .about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 380px;
+  }
+
+  #cards-area__content .element__square {
+    height: auto;
+  }
+
+  .card__header h2,
+  .card__header .card__info {
+    padding: 25px 0 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .main-content .greeting__person .about h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .main-content .greeting__person .person {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+/* Responsividade aos cards */

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header-navigation .menu-mobile {
+  display: none;
+}
+
+#header-navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px 40px;
+}
+
+.navbar__desktop .navbar__menu__links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__desktop .navbar__menu__links a {
+  font-family: "Heebo", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  margin: 20px;
+}
+
+/*Main*/
+
+/*Intro*/
+
+.main-content {
+  background-color: transparent;
+  margin: 15rem 0rem;
+  height: 50vh;
+}
+
+.main-content .greeting__person {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-content .greeting__person .person {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: -10px 10px 0px 0px #edf7fa;
+}
+
+.main-content .greeting__person .about {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  height: 310px;
+}
+
+.main-content .greeting__person .about h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 44px;
+  color: #21243d;
+  max-width: 445px;
+}
+
+.main-content .greeting__person .about p {
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  color: #21243d;
+  max-width: 497px;
+}
+
+.main-content .greeting__person .about button {
+  background-color: #ff6464;
+  color: #fff;
+
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 2px;
+
+  width: 200px;
+  height: 50px;
+
+  cursor: pointer;
+}
+
+/*Cards Area*/
+
+#cards-bg {
+  background-color: #edf7fa;
+
+  margin: 50px 0px 0px 0px;
+  width: 100%;
+  padding: 20px 150px;
+}
+
+#cards-bg #cards-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#cards-bg #cards-area #cards-area__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+  padding: 10px;
+  gap: 20px;
+}
+
+#cards-area__content .element__square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: var(--font-heebo);
+
+  width: 100%;
+  height: 100%;
+
+  gap: 20px;
+}
+
+.element__square .card__body {
+  padding: 20px;
+}
+
+.element__square .card__header h2 {
+  font-size: 25px;
+  color: #21243d;
+  padding: 30px 0px 0px 0px;
+}
+
+.element__square .card__header .card__info {
+  display: flex;
+  flex-direction: row;
+
+  margin: 22px 0px 0px 0px;
+  gap: 26px;
+}
